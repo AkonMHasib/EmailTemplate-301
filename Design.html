@@ -1,0 +1,1122 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>email template</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
+</head>
+
+<style>
+  /*basics*/
+  body {
+    font-family: 'Open Sans', Arial, Helvetica,
+      sans-serif;
+    margin: 0;
+    padding: 0;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  table {
+    border-spacing: 0;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+  }
+
+  table td {
+    border-collapse: collapse;
+  }
+
+  img {
+    -ms-interpolation-mode: bicubic;
+    display: block;
+  }
+
+  /*Outlook*/
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+  .ExternalClass p,
+  .ExternalClass span,
+  .ExternalClass font,
+  .ExternalClass td,
+  .ExternalClass div {
+    line-height: inherit;
+  }
+
+  .ReadMsgBody {
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  /* iOS BLUE LINKS */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+
+  /*Gmail*/
+  .gmailfix {
+    display: none !important;
+  }
+
+  img[class="android-gmail-fix"] {
+    width: 320px !important;
+    min-width: 320px !important;
+  }
+
+  /*Anchors*/
+  td a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .undoreset a,
+  .undoreset a:hover {
+    text-decoration: none !important;
+  }
+
+  .yshortcuts a {
+    border-bottom: none !important;
+  }
+
+  .ios-footer a {
+    color: #aaaaaa !important;
+    text-decoration: none;
+  }
+
+  /*Campaign Monitor Paddings*/
+  table p,
+  table h1,
+  table h2,
+  table h3,
+  table h4 {
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    display: inline-block !important;
+    font-family: inherit !important;
+  }
+
+  /*Responsive*/
+  @media screen and (max-width: 599px) {
+    img.image {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin: auto;
+    }
+
+    table.row {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    table.center-float,
+    td.center-float {
+      float: none !important;
+    }
+
+    td.center-text {
+      text-align: center !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+
+    td.container-padding {
+      width: 100% !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+
+    table.hide-mobile,
+    tr.hide-mobile,
+    td.hide-mobile,
+    br.hide-mobile {
+      display: none !important;
+    }
+
+    td.menu-container {
+      text-align: center !important;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    img.image {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin: auto;
+    }
+
+    table.row {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    table.center-float,
+    td.center-float {
+      float: none !important;
+    }
+
+    td.center-text {
+      text-align: center !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+
+    td.container-padding {
+      width: 100% !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+
+    table.hide-mobile,
+    tr.hide-mobile,
+    td.hide-mobile,
+    br.hide-mobile {
+      display: none !important;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    img.image {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin: auto;
+    }
+
+    table.row {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    table.center-float,
+    td.center-float {
+      float: none !important;
+    }
+
+    td.center-text {
+      text-align: center !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+
+    td.container-padding {
+      width: 100% !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+
+    table.hide-mobile,
+    tr.hide-mobile,
+    td.hide-mobile,
+    br.hide-mobile {
+      display: none !important;
+    }
+  }
+</style>
+
+<body style="background-color: #fff">
+  <table class="row" style="width: 800px; max-width: 800px" data-module="header-6"
+    data-thumb="https://www.psd2newsletters.com/templates/liana/thumbnails/header-6.jpg" width="800" align="center"
+    border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td valign="top" align="center">
+          <!-- header-6-bg-image -->
+          <table class="row" style="width: 100%; max-width: 100%" width="100%" align="center" border="0" cellpadding="0"
+            cellspacing="0">
+            <tbody>
+              <tr>
+                <td class="header-bg-image" valign="top" align="center">
+                  <!-- Gap -->
+                  <table class="row" style="width: 600px; max-width: 600px:background:#fff" width="600" align="center"
+                    border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td style="font-size: 40px; line-height: 40px" valign="middle" height="40" align="center">
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Gap -->
+
+                  <!-- Container -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="center">
+                          <!--[if (gte mso 9)|(IE)]>
+      <table border="0" width="600" cellpadding="0" cellspacing="0" style="width: 600px">
+        <tr><td width="280" style="width: 280px;" valign="middle"><![endif]-->
+
+
+
+                          <!--[if (gte mso 9)|(IE)]></td><td width="40" style="width: 40px;" valign="top"><![endif]-->
+
+                          <!-- Gap -->
+                          <table class="row" style="width: 40px; max-width: 40px" width="40" align="left" border="0"
+                            cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td style="font-size: 20px; line-height: 20px" valign="middle" height="20"
+                                  align="center">
+                                  &nbsp;
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- Gap -->
+
+                          <!--[if (gte mso 9)|(IE)]></td><td width="280" style="width: 280px;" valign="top"><![endif]-->
+
+                          <!-- Socials -->
+                          <table class="row" style="width: 280px; max-width: 280px" width="280" align="right" border="0"
+                            cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td valign="middle" align="center">
+                                  <!--[if (gte mso 9)|(IE)]>
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tr><td valign="middle" width="157"></td><td valign="middle"><![endif]-->
+                                  <table class="center-float" align="right" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="middle" align="center">
+                                          <table style="
+                                                display: inline-block;
+                                                vertical-align: middle;
+                                              " border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td valign="middle" width="8" align="center"></td>
+                                                <td valign="middle" align="center">
+
+                                                </td>
+                                                <td valign="middle" width="8" align="center"></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                        <td valign="middle" align="center">
+                                          <table style="
+                                                display: inline-block;
+                                                vertical-align: middle;
+                                              " border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td valign="middle" width="8" align="center"></td>
+                                                <td valign="middle" align="center">
+                                                  <!-- Replace facebook page url with hash #  -->
+                                                  <a href="https://www.facebook.com/hennanaturalglory/"
+                                                    target="_blank"><img style="display: block"
+                                                      src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+                                                      editable="true" alt="facebook" data-crop="false" width="25"
+                                                      border="0" /></a>
+                                                </td>
+                                                <td valign="middle" width="8" align="center"></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                        <td valign="middle" align="center">
+                                          <table style="
+                                                display: inline-block;
+                                                vertical-align: middle;
+                                              " border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td valign="middle" width="8" align="center"></td>
+                                                <td valign="middle" align="center">
+                                                  <!-- replace linkedin url with hash #  -->
+                                                  <a href="https://www.linkedin.com/company/commarandassociates"
+                                                    target="_blank"><img style="display: block"
+                                                      src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                                                      editable="true" alt="linkedin" data-crop="false" width="25"
+                                                      border="0" /></a>
+                                                </td>
+                                                <td valign="middle" width="8" align="center"></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- Socials -->
+
+                          <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Container -->
+
+                  <!-- Gap -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td style="font-size: 20px; line-height: 20px" valign="middle" height="20" align="center">
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Gap -->
+
+                  <!-- header-title -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td class="header-title" data-color="header-6-title" style="
+                              font-family: 'Open Sans', Arial, Helvetica,
+                                sans-serif;
+                              font-size: 36px;
+                              font-weight: bolder;
+                              line-height: 49px;
+                              color: #000;
+                              text-decoration: none;
+                            " valign="middle" align="center">
+                          Greetings from <br />
+                          Commar and Associates Pvt. Ltd.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- header-title -->
+
+                  <!-- Gap -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td style="font-size: 30px; line-height: 30px" valign="middle" height="30" align="center">
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Gap -->
+
+                  <!-- Picture -->
+                  <table class="row" align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td valign="middle" align="center">
+                          <table class="center-float" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="center-text" valign="middle" align="center">
+                                  <table class="center-float" align="center" border="0" cellpadding="0" cellspacing="0"
+                                    width="600">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="middle" align="center">
+                                          <p style="
+                              font-family: 'Open Sans', Arial, Helvetica,
+                                sans-serif;
+                              font-size: 14px;
+                              font-weight: normal;
+                              line-height: 24px;
+                              color: #333333;
+                              text-decoration: none;
+                            ">We came across your company while searching for prestigious importers in Turkey. Have you
+                                            considered introducing henna-based hair colors in your catalog?</p>
+                                          <!-- Gap -->
+                                          <table class="row" style="width: 600px; max-width: 600px" width="600"
+                                            align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td style="font-size: 30px; line-height: 30px" valign="middle"
+                                                  height="30" align="center">
+                                                  &nbsp;
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                          <!-- Gap -->
+                                          <a href="#" target="_blank"><img style="display: block"
+                                              src="https://i.postimg.cc/ZqwWMK3b/Henna-Pictures.jpg" editable="true"
+                                              alt="logo" data-crop="false" width="600" border="0" /></a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Picture -->
+
+                  <!-- Gap -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td style="font-size: 30px; line-height: 30px" valign="middle" height="30" align="center">
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Gap -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="row" style="width: 800px; max-width: 800px" data-module="preface-1"
+    data-thumb="https://www.psd2newsletters.com/templates/liana/thumbnails/preface-1.jpg" width="800" align="center"
+    border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="preface-bg-color" data-bgcolor="preface-1-bg-color" valign="top" align="center" bgcolor="#ffffff">
+          <!-- Container -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td valign="middle" align="center">
+                  <!-- preface-title -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td class="preface-title" data-color="preface-1-title" style="
+                              font-family: 'Open Sans', Arial, Helvetica,
+                                sans-serif;
+                              font-size: 20px;
+                              font-weight: bolder;
+                              line-height: 27px;
+                              color: #333333;
+                              text-decoration: none;
+                              letter-spacing: 0px;
+text-align:center;
+                            " valign="middle">
+                          ABOUT OUR COMPANY
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- preface-title -->
+
+                  <!-- splitter -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="100%" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td style="font-size: 15px; line-height: 15px" valign="middle" height="15" align="center">
+                          &nbsp;
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="font-size: 2px; line-height: 2px" valign="middle" height="2" align="center">
+                          <!-- line -->
+                          <table class="center-float" style="width: 40px; max-width: 40px" width="40" align="center"
+                            border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="splitter" data-bgcolor="preface-1-splitter"
+                                  style="font-size: 2px; line-height: 2px" valign="middle" height="2" align="center"
+                                  bgcolor="#F5A623">
+                                  &nbsp;
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- line -->
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="font-size: 15px; line-height: 15px" valign="middle" height="15" align="center">
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- splitter -->
+
+                  <!-- preface-text -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td class="preface-text" data-color="preface-1-text" style="
+                              font-family: 'Open Sans', Arial, Helvetica,
+                                sans-serif;
+                              font-size: 14px;
+                              font-weight: normal;
+                              line-height: 24px;
+                              color: #333333;
+                              text-decoration: none;
+text-align:left;
+                            " valign="middle" align="left">
+
+                          We are manufacturers, wholesalers and exporters of
+                          quality henna for hair and other cosmetics. We have
+                          been into this business for 20 years and going on
+                          and we are ISO-9001:2000 certified. We already have
+                          a clientele in Japan, South America, USA, Canada and
+                          South Korea.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- preface-text -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Container -->
+          <!-- Gap -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="font-size: 20px; line-height: 20px" valign="middle" height="20" align="center">
+                  &nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Gap -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="row" style="width: 800px; max-width: 800px" data-module="text-6"
+    data-thumb="https://www.psd2newsletters.com/templates/liana/thumbnails/text-6.jpg" width="800" align="center"
+    border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="text-bg-color container-padding" data-bgcolor="text-6-bg-color" valign="top" align="center"
+          bgcolor="#ffffff">
+          <!-- Container -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td class="text-inner-bg-color container-padding" data-color="text-inner-bg-color"
+                  data-bgcolor="text-inner-5-bg-color" valign="top" align="center" bgcolor="#ffffff">
+                  <!-- text -->
+                  <table class="row" style="width: 580px; max-width: 580px" width="580" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td class="text" data-color="text-6" style="
+                              font-family: 'Open Sans', Arial, Helvetica,
+                                sans-serif;
+                              font-size: 14px;
+                              font-weight: normal;
+                              line-height: 24px;
+                              color: #333333;
+                              text-decoration: none;
+                            " valign="middle" align="left">
+                          <h4>
+                            Our products include Henna Based Hair Colors which
+                            are available in both
+                          </h4>
+                          <ul>
+                            <li>
+                              Natural Formulations (Includes only Natural
+                              Ingredients)
+                            </li>
+                            <li>Chemical Formulations</li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- text -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Container -->
+
+          <!-- Gap -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="font-size: 20px; line-height: 20px" valign="middle" height="20" align="center">
+                  &nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Gap -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="row" style="width: 800px; max-width: 800px" data-module="preface-7"
+    data-thumb="https://www.psd2newsletters.com/templates/liana/thumbnails/preface-7.jpg" width="800" align="center"
+    border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="preface-bg-color" data-bgcolor="preface-7-bg-color" valign="top" align="center" bgcolor="#ffffff">
+          <!-- Gap -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="font-size: 30px; line-height: 30px" valign="middle" height="30" align="center">
+                  &nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Gap -->
+
+          <!-- Container -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td valign="middle" align="center">
+                  <!--[if (gte mso 9)|(IE)]>
+        <table border="0" width="600" cellpadding="0" cellspacing="0" style="width: 600px">
+          <tr><td width="290" style="width: 290px;" valign="top"><![endif]-->
+
+                  <!-- Left -->
+                  <table class="row" style="width: 290px; max-width: 290px" width="290" align="left" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td valign="middle" align="center">
+                          <!-- preface-text -->
+                          <table class="row" style="width: 100%; max-width: 100%" width="100%" align="center" border="0"
+                            cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="preface-text center-text" data-color="preface-7-text" style="
+                                      font-family: 'Open Sans', Arial, Helvetica,
+                                        sans-serif;
+                                      font-size: 14px;
+                                      font-weight: normal;
+                                      line-height: 30px;
+                                      color: #333333;
+                                      text-decoration: none;
+                                    " valign="middle" align="left">
+                                  Our Henna Based Hair Products are available
+                                  in all different kind of shades </br> Brown | Dark
+                                  Brown | Wine Red | Golden | Mahogany |
+                                  Burgundy | Many More Check out our shades on
+                                  our website.
+                                  <a style="color: #f55423"
+                                    href="https://www.henna.net/our-products">https://www.henna.net/our-products</a>
+                                  </br>
+                                  Since customers are more aware and inclined
+                                  towards natural products. Our products are
+                                  perfect choice to offer to your customers.
+                                  We sell under our own brand "Natural Glory”,
+                                  and we also provide "White labelling for our
+                                  Products".
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- preface-text -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Left -->
+
+                  <!--[if (gte mso 9)|(IE)]></td><td width="10" style="width: 10px;" valign="top"><![endif]-->
+
+                  <!-- Gap -->
+                  <table class="row" style="width: 10px; max-width: 10px" width="10" align="left" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td style="font-size: 20px; line-height: 20px" valign="middle" height="20" align="center">
+                          &nbsp;
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Gap -->
+
+                  <!--[if (gte mso 9)|(IE)]></td><td width="300" style="width: 300px;" valign="top"><![endif]-->
+
+                  <!-- Right -->
+                  <table class="row" style="width: 300px; max-width: 300px" width="300" align="left" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <!-- block img  -->
+                    <tbody>
+                      <tr>
+                        <td valign="middle" align="center">
+                          <a href="#" target="_blank"><img class="image" style="display: block"
+                              src="https://i.postimg.cc/Lsp8hV8J/art.png" editable="true" alt="preface-pict-7A"
+                              data-crop="false" width="300" border="0" /></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Right -->
+
+                  <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Container -->
+
+          <!-- Gap -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="font-size: 30px; line-height: 30px" valign="middle" height="30" align="center">
+                  &nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Gap -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- need to clear  -->
+
+  <table class="row" style="width: 100%; max-width: 100%" width="100%" align="center" border="0" cellpadding="0"
+    cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="column-bg-image" data-bg="event-4-column-1-bg-image" style="
+              background: url(https://www.psd2newsletters.com/templates/liana/img/event4-pict-1.jpg)
+                no-repeat center top;
+              background-size: cover;
+            " valign="middle" align="center">
+          <table style="width: 100%; max-width: 100%" width="100%" align="center" border="0" cellpadding="0"
+            cellspacing="0">
+            <tbody>
+              <tr>
+                <td class="container-padding" valign="top" align="center">
+                  <!-- Container -->
+                  <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td class="border-container" data-border-top-color="event-4-border"
+                          data-border-right-color="event-4-border" data-border-bottom-color="event-4-border"
+                          data-border-left-color="event-4-border" style="border: 4px solid #f55423" valign="middle"
+                          align="center">
+                          <!-- Content -->
+                          <table class="row" style="width: 400px; max-width: 400px" width="400" align="center"
+                            border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="box" valign="middle" align="center">
+                                  <table class="row" style="width: 400px; max-width: 400px" width="400" align="center"
+                                    border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td class="container-padding" valign="top" align="center">
+                                          <table class="row" style="
+                                                width: 360px;
+                                                max-width: 360px;
+                                              " width="360" align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td style="
+                                                      font-size: 20px;
+                                                      line-height: 20px;
+                                                    " valign="middle" height="20" align="center">
+                                                  &nbsp;
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="text" data-color="event-4-text" style="
+                                                      font-family: 'Open Sans',
+                                                        Arial, Helvetica,
+                                                        sans-serif;
+                                                      font-size: 14px;
+                                                      font-weight: normal;
+                                                      line-height: 24px;
+                                                      color: #000;
+                                                      text-decoration: none;
+                                                      letter-spacing: 0px;
+text-align:left;
+                                                    " valign="middle" align="left">
+                                                  Please contact us for more
+                                                  information, our details are
+                                                  given below. You can also
+                                                  visit our website or social
+                                                  media pages. Looking forward
+                                                  to collaborating with your
+                                                  company. Thank you and
+                                                  Regards,
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td style="
+                                                      font-size: 20px;
+                                                      line-height: 20px;
+                                                    " valign="middle" height="20" align="center">
+                                                  &nbsp;
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- Content -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Container -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- final  -->
+  <table class="row" style="width: 800px; max-width: 800px" data-module="event-1"
+    data-thumb="https://www.psd2newsletters.com/templates/liana/thumbnails/event-1.jpg" width="800" align="center"
+    border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="event-bg-color" data-bgcolor="event-1-bg-color" valign="top" align="center" bgcolor="#FFFFFF">
+          <!-- Gap -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="font-size: 20px; line-height: 20px" valign="middle" height="20" align="center">
+                  &nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Gap -->
+
+          <!-- Container -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td class="container-padding" valign="middle" align="center">
+                  <!-- Box -->
+                  <table class="row" style="width: 100%; max-width: 100%" width="100%" align="center" border="0"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td class="box" data-border-left-color="event-border" data-border-top-color="event-border"
+                          data-border-right-color="event-border" data-border-bottom-color="event-border"
+                          style="border: 2px solid #ededed" valign="middle" align="center" bgcolor="#ffffff">
+                          <!-- Gap -->
+                          <table class="row" style="width: 560px; max-width: 560px" width="560" align="center"
+                            border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td style="font-size: 20px; line-height: 20px" valign="middle" height="20"
+                                  align="center">
+                                  &nbsp;
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- Gap -->
+
+                          <!-- Content -->
+                          <table class="row" style="width: 560px; max-width: 560px" width="560" align="center"
+                            border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="text center-text" data-color="event-1-text" style="
+                                      font-family: 'Open Sans', Arial, Helvetica,
+                                        sans-serif;
+                                      font-size: 14px;
+                                      font-weight: normal;
+                                      line-height: 24px;
+                                      color: #4a4a4a;
+                                      text-decoration: none;
+                                      letter-spacing: 0px;
+                                    " valign="middle" align="left">
+                                  <span style="
+                                        display: block;
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                      ">Sam Commar</span>
+                                  <span style="display: block">Director</span>
+                                  <span style="display: block">Commar and Associates Pvt Ltd
+                                    (CAPL)</span>
+                                  <!-- replace your mail here.. after mailto:email and in between a  -->
+                                  <span><b>Email:</b>
+                                    <a href="mailto:commars@live.com">commars@live.com</a></span><br />
+                                  <!-- change phone number here  -->
+                                  <b>Phone:</b>
+                                  <a href="tel:+16463373110">+1-646-337-3110</a>
+                                  <br />
+                                  <b>Website:</b>
+                                  <!-- replace website url here  -->
+                                  <a href="https://www.henna.net">www.henna.net</a>
+                                  <br />
+                                  <b>Facebook</b> - <a href="https://www.facebook.com/hennanaturalglory/">Natural
+                                    Glory </a> <br />
+                                  <b>LinkedIn</b> - <a
+                                    href="https://www.linkedin.com/company/commarandassociates">CAPL</a>
+                                </td>
+                                <td>
+                                  <!-- Logo -->
+                                  <table class="row" style="width: 280px; max-width: 280px" width="280" align="right"
+                                    border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="middle" align="center">
+                                          <table class="center-float" align="right" border="0" cellpadding="0"
+                                            cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td class="center-text" valign="middle" align="right">
+                                                  <table class="center-float" align="right" border="0" cellpadding="0"
+                                                    cellspacing="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td class="logo" valign="middle" align="left">
+
+                                                          <a href="#" target="_blank"><img style="display: block"
+                                                              src="https://i.postimg.cc/C5bBmygS/Full-1.png"
+                                                              editable="true" alt="logo" data-crop="false" width="220"
+                                                              border="0" /></a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <!-- Logo -->
+                                </td>
+                                <!-- Footer Right-->
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- Content -->
+
+
+                          <!-- Gap -->
+                          <table class="row" style="width: 560px; max-width: 560px" width="560" align="center"
+                            border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td style="font-size: 20px; line-height: 20px" valign="middle" height="20"
+                                  align="center">
+                                  &nbsp;
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- Gap -->
+                        </td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Box -->
+                </td>
+
+
+              </tr>
+            </tbody>
+          </table>
+          <!-- Container -->
+
+          <!-- Shadow -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="font-size: 10px; line-height: 10px" valign="middle" width="20" height="10" align="center">
+                  &nbsp;
+                </td>
+                <td class="shadow-color" data-bgcolor="shadow" style="font-size: 10px; line-height: 10px"
+                  valign="middle" width="auto" height="10" align="center" bgcolor="#EDEDED">
+                  &nbsp;
+                </td>
+                <td style="font-size: 10px; line-height: 10px" valign="middle" width="20" height="10" align="center">
+                  &nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Shadow -->
+
+          <!-- Gap -->
+          <table class="row" style="width: 600px; max-width: 600px" width="600" align="center" border="0"
+            cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td style="font-size: 20px; line-height: 20px" valign="middle" height="20" align="center">
+                  &nbsp;
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Gap -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
